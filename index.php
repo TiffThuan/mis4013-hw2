@@ -5,5 +5,5 @@ include "view-header.php";
 ?>
     <h1>Hello, world!</h1>
 <?php
-include"view-footer.phh";
+include"view-footer.php";
 ?>
