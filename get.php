@@ -7,7 +7,7 @@ include "view-header.php";
 <p>Use the form below to send data using the GET method. The data will be displayed on the GET results page.</p>
 <form method="get" action="get-result.php">
   <div class="mb-3">
-    <label for="my-name" class="form-label">Enter your name:</label>
+    <label for="my-name" class="form-label">Enter your name or your inquiry:</label>
     <input type="text" id="my-name" name="my-name" class="form-control">
   </div>
   <button type="submit" class="btn btn-primary">Get data</button>
