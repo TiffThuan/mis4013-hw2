@@ -1,19 +1,36 @@
-<?php
-$pageTitle= " Get result";
+// <?php
+// $pageTitle= " Get result";
 
+// include "view-header.php";
+// ?>
+//     <h1>Get Result</h1>
+// <?php
+// if (isset($_GET['my-name'])) {
+// ?>
+//   <p> The value sent is: </p>
+// <?php
+//   echo $_GET['my-name'];
+// } else {
+//   ?>
+//   <p> Nothing sent to the page </p>
+//   <?php
+// }
+// include"view-footer.php";
+// ?>
+
+
+<?php
+$pageTitle = "Get Result";
 include "view-header.php";
 ?>
-    <h1>Get Result</h1>
+<h1>GET Result</h1>
 <?php
 if (isset($_GET['my-name'])) {
-?>
-  <p> The value sent is: </p>
-<?php
-  echo $_GET['my-name'];
+  echo "<p class='alert alert-success'>The value sent is: " . htmlspecialchars($_GET['my-name']) . "</p>";
 } else {
-  ?>
-  <p> Nothing sent to the page </p>
-  <?php
+  echo "<p class='alert alert-warning'>Nothing sent to the page</p>";
 }
-include"view-footer.php";
+?>
+<?php
+include "view-footer.php";
 ?>
