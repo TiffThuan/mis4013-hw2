@@ -1,4 +1,5 @@
 
+
 <?php
 $pageTitle = "Welcome to Our King Coffee Shop";
 
@@ -7,34 +8,36 @@ include "view-header.php";
     <h1>Welcome to Our King Coffee Shop!</h1>
     <p>One of the best Vietnamese coffee in Oklahoma </p>
     <p>Experience our signature coffee - Cafe Sua Da, coffee gourmet for everyone </p>
+
+    <!-- Coffee Menu -->
     <h2>Our Coffee Menu</h2>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th scope="col">Coffee</th>
-                <th scope="col">Price</th>
+                <th>Coffee</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Espresso</td>
-                <td>$3.00</td>
-            </tr>
-            <tr>
-                <td>Americano</td>
-                <td>$3.50</td>
-            </tr>
-            <tr>
-                <td>Cappuccino</td>
+                <td>Cafe Sua Da (Iced Coffee with Condensed Milk)</td>
                 <td>$4.00</td>
             </tr>
             <tr>
-                <td>Latte</td>
-                <td>$4.50</td>
+                <td>Cafe Den Da (Iced Black Coffee)</td>
+                <td>$3.50</td>
             </tr>
             <tr>
-                <td>Cafe Sua Da</td>
-                <td>$5.00</td>
+                <td>Hot Coffee</td>
+                <td>$3.00</td>
+            </tr>
+            <tr>
+                <td>Espresso</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>Cappuccino</td>
+                <td>$4.50</td>
             </tr>
         </tbody>
     </table>
