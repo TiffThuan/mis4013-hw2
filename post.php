@@ -1,17 +1,19 @@
 
+
+
 <?php
-$pageTitle = "Post";
+$pageTitle= "Contact Us";
+
 include "view-header.php";
 ?>
-<h1>POST Method Form</h1>
-<p>Use the form below to send data using the POST method. The data will be displayed on the results page.</p>
-<form method="post" action="post-result.php">
-  <div class="mb-3">
-    <label for="my-name" class="form-label">Enter your name:</label>
-    <input type="text" id="my-name" name="my-name" class="form-control">
-  </div>
-  <button type="submit" class="btn btn-primary">Post data</button>
-</form>
+    <h1>Contact Us</h1>
+<form method ="post" action="post-result.php">
+  <label for="customer-name">Enter your name:</label>
+  <input type="text" name="customer-name" id="customer-name">
+  <label for="message">Enter your message:</label>
+  <textarea name="message" id="message"></textarea>
+  <input type="submit" value="Send">
+</form> 
 <?php
 include "view-footer.php";
 ?>
