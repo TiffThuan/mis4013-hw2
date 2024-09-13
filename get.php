@@ -1,17 +1,16 @@
 
+
 <?php
-$pageTitle = "Get";
+$pageTitle= "Order Coffee";
+
 include "view-header.php";
 ?>
-<h1>GET Method Form</h1>
-<p>Use the form below to send data using the GET method. The data will be displayed on the GET results page.</p>
-<form method="get" action="get-result.php">
-  <div class="mb-3">
-    <label for="my-name" class="form-label">Enter your name or your inquiry:</label>
-    <input type="text" id="my-name" name="my-name" class="form-control">
-  </div>
-  <button type="submit" class="btn btn-primary">Get data</button>
-</form>
+    <h1>Order Your Coffee</h1>
+<form method ="get" action="get-result.php">
+  <label for="coffee-type">Enter your favorite coffee:</label>
+  <input type="text" name="coffee-type" id="coffee-type">
+  <input type="submit" value="Order">
+</form> 
 <?php
 include "view-footer.php";
 ?>
