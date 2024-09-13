@@ -1,12 +1,10 @@
-
 <?php
-$pageTitle = "Home";
+$pageTitle = "Welcome to Our King Coffee Shop";
+
 include "view-header.php";
 ?>
-<h1>Welcome to Homework 2!</h1>
-<p>This site demonstrates the use of PHP for handling form data using GET and POST methods.</p>
-<p>Utilize the navigation bar to explore different forms and see how wonderful data is processed.</p>
+    <h1>Welcome to Our King Coffee Shop!</h1>
+    <p>Experience the best Vietnamese coffee - Cafe Sua Da. Explore our menu and place your orders online!</p>
 <?php
 include "view-footer.php";
 ?>
-
