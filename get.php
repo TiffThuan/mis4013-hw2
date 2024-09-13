@@ -16,7 +16,7 @@ include "view-header.php";
     <option value="Cappuccino">Cappuccino - $4.50</option>
   </select>
   <br><br>
-  <input type="submit" value="Order">
+  <input type="submit" class="btn btn-primary" value="Order">
 </form> 
 <?php
 include "view-footer.php";
