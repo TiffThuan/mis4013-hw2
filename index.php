@@ -5,8 +5,8 @@ $pageTitle = "Welcome to Our King Coffee Shop";
 include "view-header.php";
 ?>
     <h1>Welcome to Our King Coffee Shop!</h1>
-    <p>Experience the best Vietnamese coffee - Cafe Sua Da. Explore our menu and place your orders online!</p>
-
+    <p>One of the best Vietnamese coffee in Oklahoma </p>
+    <p>Experience our signature coffee - Cafe Sua Da, coffee gourmet for everyone </p>
     <h2>Our Coffee Menu</h2>
     <table class="table table-striped">
         <thead>
