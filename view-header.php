@@ -10,7 +10,7 @@
     <div class ="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Homework 2</a>
+    <a class="navbar-brand" href="#">King Coffee Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,16 +20,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="post.php">Post</a>
+          <a class="nav-link" href="post.php">Order Coffee</a>
         </li>
               <li class="nav-item">
-          <a class="nav-link" href="post-result.php">Post Result</a>
+          <a class="nav-link" href="post-result.php">Order Result</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get.php">Get</a>
+          <a class="nav-link" href="get.php">Contact Us</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get-result.php">Get Result</a>
+          <a class="nav-link" href="get-result.php">Contact Result</a>
         </li>
       </ul>
      
