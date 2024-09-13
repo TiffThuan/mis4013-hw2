@@ -1,23 +1,19 @@
 
-
 <?php
-$pageTitle = "Post Result";
+$pageTitle= "Contact Result";
+
 include "view-header.php";
 ?>
-
-<h1>POST Result</h1>
-
+    <h1>Thank You for Reaching Out!</h1>
 <?php
 echo getDisplay();
-?>
-<?php
 include "view-footer.php";
 
 function getDisplay() {
-  if (isset($_POST['my-name'])) {
-    return "<p class='alert alert-success'>The value sent is: " . htmlspecialchars($_POST['my-name']) . "</p>";
-  } else {
-    return "<p class='alert alert-warning'>Nothing posted to the page</p>";
-  }
+    if (isset($_POST['customer-name']) && isset($_POST['message'])) {
+        return "<p>Thank you, " . htmlspecialchars($_POST['customer-name']) . ", for your message:</p><p><em>" . htmlspecialchars($_POST['message']) . "</em></p>";
+    } else {
+        return "<p>Message not sent. Please try again.</p>";
+    }
 }
 ?>
