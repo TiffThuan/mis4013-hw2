@@ -1,20 +1,22 @@
+
+
+
 <?php
-$pageTitle = "Get Result";
+$pageTitle= "Order Result";
 
 include "view-header.php";
 ?>
-    <h1>Get Result</h1>
+    <h1>Your Coffee Order</h1>
 <?php
-if (isset($_GET['my-name'])) {
+if (isset($_GET['coffee-type'])) {
 ?>
-    <p class='alert alert-success'>The value sent is: <?= htmlspecialchars($_GET['my-name']); ?></p>
+  <p>Thank you for ordering:</p>
 <?php
+  echo "<strong>" . htmlspecialchars($_GET['coffee-type']) . "</strong>";
 } else {
-?>
-    <p class='alert alert-warning'>Nothing sent to the page</p>
-<?php
+  ?>
+  <p>No order was placed.</p>
+  <?php
 }
-?>
-<?php
 include "view-footer.php";
 ?>
