@@ -20,16 +20,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="post.php">Order Coffee</a>
+          <a class="nav-link" href="post.php">Contact Us</a>
         </li>
               <li class="nav-item">
-          <a class="nav-link" href="post-result.php">Order Result</a>
+          <a class="nav-link" href="post-result.php">Contact Result</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get.php">Contact Us</a>
+          <a class="nav-link" href="get.php">Order Coffee</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="get-result.php">Contact Result</a>
+          <a class="nav-link" href="get-result.php">Order Result</a>
         </li>
       </ul>
      
