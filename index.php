@@ -1,17 +1,17 @@
-
-
 <?php
 $pageTitle = "Welcome to Our King Coffee Shop";
 
 include "view-header.php";
 ?>
     <h1>Welcome to Our King Coffee Shop!</h1>
-    <p>One of the best Vietnamese coffee in Oklahoma </p>
-    <p>Experience our signature coffee - Cafe Sua Da, coffee gourmet for everyone </p>
+    
+    <!-- Italic greeting message -->
+    <p><em>One of the best Vietnamese coffee in Oklahoma</em></p>
+    <p><em>Experience our signature coffee - Cafe Sua Da, coffee gourmet for everyone</em></p>
 
-    <!-- Coffee Menu -->
+    <!-- Coffee Menu with blue color -->
     <h2>Our Coffee Menu</h2>
-    <table class="table table-striped">
+    <table class="table table-bordered" style="color: blue;">
         <thead>
             <tr>
                 <th>Coffee</th>
